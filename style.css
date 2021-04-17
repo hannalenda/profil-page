@@ -8,16 +8,23 @@ body {
 
 h1 {
   font-family: Courier;
-  color: #FCA4F9;
+  color: white;
   font-weight: lighter;
   font-size: 40px;
 }
 
 h2 {
-  font-family: Helvetica;
-  color: white;
+  font-family: Courier;
+  color: black;
   font-weight: lighter;
   font-size: 8px;
+}
+
+h3 {
+  font-family: Courier;
+  color: black;
+  font-weight: lighter;
+  font-size: 16px;
 }
 
 a {
@@ -52,12 +59,14 @@ a:hover {
   font-weight: lighter;
 }
 
+
 .btn {
   text-decoration: none;
-  background-color: #F18805;
+  background-color: #201A21;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(50,50,93,.11);
   padding: 15px 20px;
+  width: 200px
 }
 
 .btn:hover {
@@ -71,7 +80,17 @@ a:hover {
   margin: 16px;
   font: Courier;
   font-weight: lighter;
-  background-color: pink;
+  background-color: #57ECFD;
+
+}
+.card2 {
+  padding: 16px;
+  margin: 16px;
+  bord
+  font: Courier;
+  font-weight: lighter;
+  color: black;
+  background-color: white;
 
 }
 /*.card img {
