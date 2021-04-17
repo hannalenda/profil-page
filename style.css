@@ -82,6 +82,7 @@ a:hover {
   font-weight: lighter;
   background-color: #57ECFD;
 
+
 }
 .card2 {
   padding: 16px;
@@ -91,6 +92,7 @@ a:hover {
   font-weight: lighter;
   color: black;
   background-color: white;
+  width: 600px;
 
 }
 /*.card img {
