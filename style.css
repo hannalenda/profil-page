@@ -1,0 +1,95 @@
+body {
+  background: #201A21;
+  color: white;
+  margin: 0px;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-family: Courier;
+  color: #FCA4F9;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Helvetica;
+  color: white;
+  font-weight: lighter;
+  font-size: 8px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+ }
+
+#banner {
+  text-align: center;
+  background-image: url(images/hero_img_code.png);
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+
+#banner img {
+  border: 10px solid white;
+}
+
+#banner h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px #F18805;
+}
+
+#banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #F18805;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn:hover {
+  background-color: #613F75;
+  opacity: 0.8;
+  border: 2px solid white;
+}
+
+.card {
+  padding: 16px;
+  margin: 16px;
+  font: Courier;
+  font-weight: lighter;
+  background-color: pink;
+
+}
+/*.card img {
+	margin-left: 50%;
+	margin-right: 50%;
+}*/
+
+#footer {
+  margin-top: 15px;
+  padding: 10px 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+.cards {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:  16px;
+  width: 1000px;
+}/* Write your CSS here */
